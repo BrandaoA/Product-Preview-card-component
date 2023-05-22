@@ -101,3 +101,15 @@ button:hover {
 button img {
     margin-right: 10px;
 }
+
+
+@media screen and (max-width: 375px)
+{
+    .card {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        border-radius: 10px;
+    }
+}
